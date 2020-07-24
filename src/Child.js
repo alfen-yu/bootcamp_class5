@@ -4,11 +4,11 @@ import CounterContext from './CounterContext';
 const Child = () => {
 
     let counterValue = useContext(CounterContext) 
-    console.log(counterValue)
     return (
         <div>
-            <h1>Hello</h1>
-            <h3>Counter Value is {counterValue}</h3>
+            <h3>Counter Value is {counterValue[0]}</h3>
+            
+            <button onClick={() => {counterValue[1](++counterValue[0])}}>Increment</button>
         </div>
     );
 }
