@@ -37,4 +37,4 @@ jobs:
       run: npm install -g surge
       
     - name: Deployment using Surge 
-      run: surge ./build https://future.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build https://oranges.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
