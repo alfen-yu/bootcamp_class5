@@ -6,7 +6,7 @@ import CounterContext from './CounterContext';
 function App() {
   
   // let [count, setCount] = useState(10)
-  let countState = useState("0")
+  let countState = useState(0)
   return (
     <CounterContext.Provider value={countState}>
     <div>
