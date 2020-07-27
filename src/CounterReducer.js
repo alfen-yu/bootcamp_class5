@@ -4,7 +4,7 @@ const CounterReducer = (state, action) => {
             return state + 1 
 
         default:
-            console.log("What we know is a drop, what we dont know is an ocean."); 
+            console.log("What we know is a drop, what we don't know is an ocean."); 
     }
 }
 
